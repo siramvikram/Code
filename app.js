@@ -7,6 +7,9 @@ var bodyParser = require('body-parser');
 
 //Setup mongo
 var mongo = require('mongodb');
+var mongoose = require('mongoose');
+//var db = mongoose.connect('mongodb://localhost:27017/associate');
+
 var monk = require('monk');
 var db = monk('localhost:27017/associate');
 
